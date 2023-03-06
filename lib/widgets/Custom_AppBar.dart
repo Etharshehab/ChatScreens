@@ -1,22 +1,23 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_application_1/model/chat_model.dart';
+import 'package:flutter_application_1/model/user_model.dart';
 
 class CustomAppBar extends StatelessWidget {
   const CustomAppBar({super.key});
 
   @override
   Widget build(BuildContext context) {
+    var currentUser = users[0];
     return AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0.0,
         systemOverlayStyle: const SystemUiOverlayStyle(
           statusBarColor: Colors.black,
         ),
-        leading: const Padding(
-          padding: EdgeInsets.all(5.0),
-          child: CircleAvatar(
-            backgroundImage: AssetImage('assets/images/1.jpeg'),
-          ),
+        leading: Padding(
+          padding: const EdgeInsets.all(5.0),
+          child: Image.asset('assets/images/${currentUser.imageUrl}'),
         ),
         title: const Text(
           'chat',
@@ -36,4 +37,6 @@ class CustomAppBar extends StatelessWidget {
           ),
         ]);
   }
+
+  assetImage(String s) {}
 }

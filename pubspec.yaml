@@ -58,12 +58,12 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/imges/download.jpeg
-    - assets/imges/images (1).jpeg
-    - assets/imges/images (2).jpeg
-    - assets/imges/images (3).jpeg
-    - assets/imges/images (4).jpeg
-    - assets/imges/images.jpeg
+    - E:\ChatScreens\asset\imges\download.jpeg
+    - E:\ChatScreens\asset\imges\images (1).jpeg
+    - E:\ChatScreens\asset\imges\images (2).jpeg
+    - E:\ChatScreens\asset\imges\images (3).jpeg
+    - E:\ChatScreens\asset\imges\images (4).jpeg
+    - E:\ChatScreens\asset\imges\images.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

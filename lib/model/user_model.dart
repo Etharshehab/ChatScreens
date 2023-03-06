@@ -4,6 +4,7 @@ class UserModel {
   final String imageUrl;
   final String time;
   final bool isMessageRead;
+  final bool isactive;
 
   const UserModel({
     required this.name,
@@ -11,57 +12,67 @@ class UserModel {
     required this.imageUrl,
     required this.time,
     required this.isMessageRead,
+    required this.isactive,
   });
+
+  get sender => null;
 }
 
 List<UserModel> users = [
   const UserModel(
     name: 'Ahmed',
-    imageUrl: 'assets/imges/download.jpeg',
+    imageUrl: 'E:/ChatScreens/asset/imges/download.jpeg',
     messageText: 'Hey, how\'s it going? What did you do today?',
     time: '15:30',
     isMessageRead: false,
+    isactive: true,
   ),
   const UserModel(
-    name: 'Ahmed',
-    imageUrl: 'assets/imges/images(1).jpeg',
+    name: 'amr',
+    imageUrl: 'E:/ChatScreens/asset/imges/images (1).jpeg',
     messageText: 'Hey, how\'s it going? What did you do today?',
     time: '15:30',
     isMessageRead: true,
+    isactive: false,
   ),
   const UserModel(
-    name: 'Omar',
-    imageUrl: 'assets/imges/images(2).jpeg',
+    name: 'ali',
+    imageUrl: 'E:/ChatScreens/asset/imges/images (2).jpeg',
     messageText: 'Hey, how\'s it going? What did you do today?',
     time: '15:30',
     isMessageRead: false,
+    isactive: true,
   ),
   const UserModel(
-    name: 'Tolba',
-    imageUrl: 'assets/imges/images(3).jpeg',
+    name: 'omar',
+    imageUrl: 'E:/ChatScreens/asset/imges/images (3).jpeg',
     messageText: 'Hey, how\'s it going? What did you do today?',
     time: '15:30',
     isMessageRead: true,
+    isactive: true,
   ),
   const UserModel(
-    name: 'Tolba',
-    imageUrl: 'assets/imges/images(4).jpeg',
+    name: 'mohamed',
+    imageUrl: 'E:/ChatScreens/asset/imges/images (4).jpeg',
     messageText: 'Hey, how\'s it going? What did you do today?',
     time: '15:30',
     isMessageRead: true,
+    isactive: false,
   ),
   const UserModel(
-    name: 'Ahmed',
-    imageUrl: 'assets/imges/images.jpeg',
+    name: 'Abas',
+    imageUrl: 'E:/ChatScreens/asset/imges/images.jpeg',
     messageText: 'Hey, how\'s it going? What did you do today?',
     time: '15:30',
     isMessageRead: false,
+    isactive: true,
   ),
   const UserModel(
     name: 'Ahmed',
-    imageUrl: 'assets/imges/images(4).jpeg',
+    imageUrl: 'E:/ChatScreens/asset/imges/images.jpeg',
     messageText: 'Hey, how\'s it going? What did you do today?',
     time: '15:30',
     isMessageRead: true,
+    isactive: true,
   ),
 ];

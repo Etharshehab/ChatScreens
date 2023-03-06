@@ -9,37 +9,37 @@ class ChatModel {
 List<ChatModel> chats = [
   ChatModel(
     name: 'Ahmed',
-    img: 'assets/imges/download.jpeg',
+    img: 'E:/ChatScreens/asset/imges/download.jpeg',
     isActive: true,
   ),
   ChatModel(
-    name: 'Ahmed',
-    img: 'assets/imges/images(1).jpeg',
+    name: 'amr',
+    img: 'E:/ChatScreens/asset/imges/images (1).jpeg',
     isActive: false,
   ),
   ChatModel(
-    name: 'Omar',
-    img: 'assets/imges/images(2).jpeg',
+    name: 'ali',
+    img: 'E:/ChatScreens/asset/imges/images (2).jpeg',
     isActive: true,
   ),
   ChatModel(
-    name: 'Tolba',
-    img: 'assets/imges/images(3).jpeg',
+    name: 'omar',
+    img: 'E:/ChatScreens/asset/imges/images (3).jpeg',
     isActive: true,
   ),
   ChatModel(
-    name: 'Tolba',
-    img: 'assets/imges/images(4).jpeg',
+    name: 'mohamed',
+    img: 'E:/ChatScreens/asset/imges/images (4).jpeg',
     isActive: false,
   ),
   ChatModel(
-    name: 'Ahmed',
-    img: 'assets/imges/images.jpeg',
+    name: 'Abas',
+    img: 'E:/ChatScreens/asset/imges/images.jpeg',
     isActive: true,
   ),
   ChatModel(
     name: 'Ahmed',
-    img: 'assets/imges/images(2).jpeg',
+    img: 'E:/ChatScreens/asset/imges/images.jpeg',
     isActive: true,
   ),
 ];

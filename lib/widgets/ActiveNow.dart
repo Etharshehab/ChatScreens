@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import '/model/chat_model.dart';
 
-class CustomChatList extends StatelessWidget {
+class ActiveNow extends StatelessWidget {
   final int index;
   final ChatModel model;
-  const CustomChatList({Key? key, required this.index, required this.model})
+  const ActiveNow({Key? key, required this.index, required this.model})
       : super(key: key);
 
   @override
